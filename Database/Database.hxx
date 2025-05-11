@@ -32,7 +32,6 @@ public:
     void remove(const unsigned int index) noexcept;
     unsigned int size() noexcept;
 
-    // Новые методы по заданию:
     void getAddressesLast3Days(List<std::string>& addresses) const noexcept;
     void getClientsByWorkLastWeek(List<std::string>& clients, const std::string& workType) const noexcept;
     unsigned int countClientsInPeriod(std::time_t start, std::time_t end) const noexcept;
